@@ -3,6 +3,7 @@ import asyncio
 from datetime import datetime
 import PyPDF2  # For reading the PDF file
 
+
 # --- Extractor Classes ---
 class CompanyNameExtractor:
     def __init__(self, pdf_path: str, expected_company_name: str):
